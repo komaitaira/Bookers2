@@ -19,6 +19,13 @@
  @import "bootstrap";            /*ここを追加*/
 
 
+
+
+
+header, footer, nav {
+    display: block;
+}
+
 .body {
     margin-top: 51px;
 }
@@ -29,6 +36,13 @@ body {
     line-height: 1.42857143;
     color: #333333;
     background-color: #fff;
+}
+
+.b {
+    font-size: 20px;
+    padding-top: 10px;
+    float: left;
+    color: white;
 }
 
 .container {
@@ -66,9 +80,3 @@ p {
     font-size: 13px;
 }
 
-.navbar-left {
-    float: left;
-    color: white;
-    font-size: 20px;
-    padding-top: 10px;
-}
